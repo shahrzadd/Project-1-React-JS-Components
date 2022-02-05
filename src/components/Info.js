@@ -5,12 +5,12 @@ class Info extends React.Component {
     render() {
         return(
         <article>
-        <h1>Welcome to my environment.</h1>
+        <h1>Welcome to my environment</h1>
         <img src={logo} alt="shahrzad" />
         <p className='Intro'>Hello, This is Shahrzad. Together we will make a creative experience!</p>
     
         <section id='about'>
-            <h2>about me</h2>
+            <h2>About Me</h2>
             <p>
             Studio.89 (2021 - present)<br />Senior Graphic Designer<br />Studio.89 is a social enterprise project of YTGA. Youth Troopers for Global Awareness is a youth-led non profit mobilizing and empowering young people for social justice through the arts.
             </p>
@@ -20,17 +20,12 @@ class Info extends React.Component {
             </p>
         </section>
     
-        <section id="contact">
-            <h2>get in touch</h2>
-            <l>
-                <li><a href="https://www.linkedin.com/in/shahrzad-samimi-118961128">LinkedIn</a></li>
-            </l>
-            <l>
-                <li><a href="https://twitter.com/shahrzadsam">Twitter</a></li>
-            </l>
-            <l>
-                <li><a href="https://www.instagram.com/shahrzad.samimi/">Instagram</a></li>
-            </l>
+        <section id="skills">
+            <h2>Professional Skills</h2>
+            <l><li>Adobe Creative Suit</li></l>
+            <l><li>Content Creation</li></l>
+            <l><li>Photography</li></l>
+            <l><li>SEO</li></l>
         </section>
         </article>
         )
