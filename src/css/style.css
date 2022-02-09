@@ -31,13 +31,6 @@ nav a {
     padding: 1.75rem;
 }
 
-/*nav a: hover,
-nav a: focus-visible {
-    background-color: #ffe4c4;
-    color: #222;
-    outline: 0;
-}*/
-
 nav a:is(:hover, :focus-visible) {
     background-color: #ffe4c4;
     color: #222;
